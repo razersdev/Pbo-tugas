@@ -2,7 +2,7 @@
 
 namespace Pbo\Marketplace;
 
-class produk{
+trait produk{
     private string $kode;
     private string $nama;
     private int $harga;
@@ -54,7 +54,7 @@ class produk{
     }
 
     public function getHarga() {
-        return $this->harga;
+        return $this->harga; 
     }
 
     public function getStock() {
